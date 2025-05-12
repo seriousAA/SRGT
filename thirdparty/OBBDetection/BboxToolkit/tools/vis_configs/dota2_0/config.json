@@ -1,0 +1,25 @@
+{
+    "load_type": "pkl",
+    "img_dir": "/home/liyuqiu/RS-PCT/data/DOTA/DOTA-v2.0/trainval_class_1.5_ms/images",
+    "ann_dir": "/home/liyuqiu/RS-PCT/data/DOTA/DOTA-v2.0/trainval_class_1.5_ms/annfiles/patch_annfile.pkl",
+    "classes": "dota1.5",
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "load_nproc": 10,
+
+    "skip_empty": false,
+    "random_vis": false,
+    "ids": null,
+    "show_off": false,
+    "save_dir": "/home/liyuqiu/RS-PCT/data/visualization_2.0_class_1.5_ms",
+    "vis_nproc": 10,
+
+    "shown_btype": null,
+    "shown_names": "./vis_configs/dota2_0/short_names.txt",
+    "score_thr": 0.2,
+    "colors": "./vis_configs/dota2_0/colors.txt",
+    "thickness": 1.5,
+    "text_off": false,
+    "font_size": 5,
+    "wait_time": 0
+}

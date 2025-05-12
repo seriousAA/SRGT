@@ -1,0 +1,31 @@
+{
+    "nproc": 40,
+    "load_type": "dota",
+    "img_dirs": [
+        "/media/liyuqiu/RS-PCT/data/dota_2.0_ori/small_val/"
+    ],
+    "ann_dirs": [
+        "/media/liyuqiu/RS-PCT/data/dota_2.0_ori/val/labelTxt/"
+    ],
+    "classes": "dota2.0",
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "sizes": [
+        1024
+    ],
+    "gaps": [
+        200
+    ],
+    "rates": [
+        1.0
+    ],
+    "img_rate_thr": 0.6,
+    "iof_thr": 0.7,
+    "no_padding": false,
+    "padding_value": [
+        104, 116, 124
+    ],
+    "filter_empty": false,
+    "save_dir": "/media/liyuqiu/RS-PCT/data/dota_2.0_all/small_val/",
+    "save_ext": ".png"
+}

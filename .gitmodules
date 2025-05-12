@@ -1,0 +1,4 @@
+[submodule "thirdparty/OBBDetection"]
+	path = thirdparty/OBBDetection
+	url = git@github.com:seriousAA/OBBDetection.git
+	branch = master 

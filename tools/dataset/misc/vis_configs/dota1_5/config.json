@@ -1,0 +1,25 @@
+{
+    "load_type": "dota",
+    "img_dir": "/home/liyuqiu/RS-PCT/data/pick2show",
+    "ann_dir": "/home/liyuqiu/RS-PCT/data/DOTA/DOTA-v1.5/DOTA-v1.5_train",
+    "classes": "dota1.5",
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "load_nproc": 10,
+
+    "skip_empty": false,
+    "random_vis": false,
+    "ids": null,
+    "show_off": false,
+    "save_dir": "/home/liyuqiu/RS-PCT/data/pick2show_results",
+    "vis_nproc": 10,
+
+    "shown_btype": null,
+    "shown_names": "./vis_configs/dota1_5/short_names.txt",
+    "score_thr": 0.2,
+    "colors": "./vis_configs/dota1_5/colors.txt",
+    "thickness": 2.5,
+    "text_off": false,
+    "font_size": 8,
+    "wait_time": 0
+}

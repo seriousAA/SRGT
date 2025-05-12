@@ -1,0 +1,33 @@
+{
+    "nproc": 20,
+    "load_type": "dota",
+    "img_dirs": [
+        "/home/liyuqiu/data/DOTA-v2.0/train/images/",
+        "/home/liyuqiu/data/DOTA-v2.0/val/images/"
+    ],
+    "ann_dirs": [
+        "/home/liyuqiu/data/DOTA-v2.0/train/labelTxt-v2.0/DOTA-v2.0_train",
+        "/home/liyuqiu/data/DOTA-v2.0/val/labelTxt-v2.0/DOTA-v2.0_val"
+    ],
+    "classes": "dota1.0",
+    "prior_annfile": null,
+    "merge_type": "addition",
+    "sizes": [
+        600
+    ],
+    "gaps": [
+        150
+    ],
+    "rates": [
+        1.0
+    ],
+    "img_rate_thr": 0.6,
+    "iof_thr": 0.5,
+    "no_padding": false,
+    "padding_value": [
+        104, 116, 124
+    ],
+    "filter_empty": false,
+    "save_dir": "/home/liyuqiu/data/DOTA/DOTA-v2.0/trainval_600/",
+    "save_ext": ".png"
+}

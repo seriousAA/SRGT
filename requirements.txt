@@ -1,0 +1,25 @@
+numpy<1.24
+mmcv-full>=1.5,<1.8
+torch>=1.10
+# torch>=1.10,<2.0
+torchvision
+matplotlib
+# matplotlib<3.9.0 # torchcam 'overlay_mask' need it
+Pillow
+six
+terminaltables
+wandb
+pandas
+scipy
+scikit-learn
+shapely
+prettytable
+pycocotools
+einops
+timm
+ipdb
+yapf<0.40.2
+# TensorBoard>=2.4.1
+setuptools<=59.5
+# torchcam
+beautifulsoup4

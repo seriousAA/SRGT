@@ -1,0 +1,4 @@
+[submodule "BboxToolkit"]
+	path = BboxToolkit
+	url = git@github.com:seriousAA/BboxToolkit.git
+	branch = master 
