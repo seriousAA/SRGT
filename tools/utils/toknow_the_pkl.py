@@ -1,7 +1,7 @@
 import pickle
 
 # Load the .pkl file
-file_path = '/media/liyuqiu/RS-PCT/data/xView/ss/trainval/annfiles/json/patch_annfile.pkl'
+file_path = '/media/****/RS-PCT/data/xView/ss/trainval/annfiles/json/patch_annfile.pkl'
 
 with open(file_path, 'rb') as file:
     data = pickle.load(file)

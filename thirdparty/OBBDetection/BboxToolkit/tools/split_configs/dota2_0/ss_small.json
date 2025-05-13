@@ -2,10 +2,10 @@
     "nproc": 40,
     "load_type": "dota",
     "img_dirs": [
-        "/media/liyuqiu/RS-PCT/data/dota_2.0_ori/small_val/"
+        "/media/****/RS-PCT/data/dota_2.0_ori/small_val/"
     ],
     "ann_dirs": [
-        "/media/liyuqiu/RS-PCT/data/dota_2.0_ori/val/labelTxt/"
+        "/media/****/RS-PCT/data/dota_2.0_ori/val/labelTxt/"
     ],
     "classes": "dota2.0",
     "prior_annfile": null,
@@ -26,6 +26,6 @@
         104, 116, 124
     ],
     "filter_empty": false,
-    "save_dir": "/media/liyuqiu/RS-PCT/data/dota_2.0_all/small_val/",
+    "save_dir": "/media/****/RS-PCT/data/dota_2.0_all/small_val/",
     "save_ext": ".png"
 }

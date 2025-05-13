@@ -1,7 +1,7 @@
 {
     "load_type": "dota_submission",
-    "img_dir": "/home/liyuqiu/RS-PCT/data/pick2show",
-    "ann_dir": "/home/liyuqiu/RS-PCT/results/results_test_on_unsup",
+    "img_dir": "/home/****/RS-PCT/data/pick2show",
+    "ann_dir": "/home/****/RS-PCT/results/results_test_on_unsup",
     "classes": "dota1.5",
     "prior_annfile": null,
     "merge_type": "addition",
@@ -11,7 +11,7 @@
     "random_vis": false,
     "ids": null,
     "show_off": false,
-    "save_dir": "/home/liyuqiu/RS-PCT/data/pick2show_results",
+    "save_dir": "/home/****/RS-PCT/data/pick2show_results",
     "vis_nproc": 10,
 
     "shown_btype": null,

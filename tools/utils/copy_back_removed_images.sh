@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Define source and destination directories
-SOURCE_DIR="/home/liyuqiu/RS-PCT/data/DOTA/gsd_after"
-DEST_DIR="/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/test"
+SOURCE_DIR="/home/****/RS-PCT/data/DOTA/gsd_after"
+DEST_DIR="/home/****/RS-PCT/data/DOTA/gsd_dataset/test"
 
 # List of images to copy
 images=(

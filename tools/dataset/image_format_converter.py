@@ -62,9 +62,9 @@ def image_json_converter(src_json, dst_json):
     with open(dst_json, 'w') as f_out:
         json.dump(data, f_out)
 if __name__ == "__main__":
-    data_dir = '/home/liyuqiu/data/DOTA/dota_train_1024/unlabeled_dior/images'
-    output_dir = '/home/liyuqiu/data/DOTA/dota_train_1024/unlabeled_dior/images_png'
-    src_json = '/home/liyuqiu/data/DOTA/dota_train_1024/unlabeled_dior/instances_unlabeled_dior.json'
+    data_dir = '/home/****/data/DOTA/dota_train_1024/unlabeled_dior/images'
+    output_dir = '/home/****/data/DOTA/dota_train_1024/unlabeled_dior/images_png'
+    src_json = '/home/****/data/DOTA/dota_train_1024/unlabeled_dior/instances_unlabeled_dior.json'
 
     # image_resize_converter(data_dir, output_dir, 'png', '1024x1024')
     image_json_converter(src_json, src_json)

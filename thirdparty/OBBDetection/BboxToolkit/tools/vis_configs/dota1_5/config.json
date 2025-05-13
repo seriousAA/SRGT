@@ -1,7 +1,7 @@
 {
     "load_type": "pkl",
-    "img_dir": "/home/liyuqiu/RS-PCT/data/DOTA/DOTA-v1.5/ms/trainval/images",
-    "ann_dir": "/home/liyuqiu/RS-PCT/data/DOTA/DOTA-v1.5/ms/trainval/annfiles/patch_annfile.pkl",
+    "img_dir": "/home/****/RS-PCT/data/DOTA/DOTA-v1.5/ms/trainval/images",
+    "ann_dir": "/home/****/RS-PCT/data/DOTA/DOTA-v1.5/ms/trainval/annfiles/patch_annfile.pkl",
     "classes": "dota1.5",
     "prior_annfile": null,
     "merge_type": "addition",
@@ -11,7 +11,7 @@
     "random_vis": false,
     "ids": null,
     "show_off": false,
-    "save_dir": "/home/liyuqiu/RS-PCT/data/visualization_1.5_ms",
+    "save_dir": "/home/****/RS-PCT/data/visualization_1.5_ms",
     "vis_nproc": 10,
 
     "shown_btype": null,

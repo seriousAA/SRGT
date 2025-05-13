@@ -30,7 +30,7 @@ def match_images_with_csv(folder_path, csv_file_path, output_csv_file_path):
         print("All images have corresponding entries in the CSV.")
 
 # Example usage:
-folder_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/test'
-csv_file_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/csv/test_data_filtered.csv'
-output_csv_file_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/csv/test_data_no_difficult.csv'
+folder_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/test'
+csv_file_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/csv/test_data_filtered.csv'
+output_csv_file_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/csv/test_data_no_difficult.csv'
 match_images_with_csv(folder_path, csv_file_path, output_csv_file_path)

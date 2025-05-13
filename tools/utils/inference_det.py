@@ -12,8 +12,8 @@ from functools import partial
 import copy
 import mmcv
 
-output_path = "/home/liyuqiu/RS-PCT/data/DOTA/show_scaling"
-img_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/train/P0002_6.png'  # or img = mmcv.imread(img), which will only load it once
+output_path = "/home/****/RS-PCT/data/DOTA/show_scaling"
+img_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/train/P0002_6.png'  # or img = mmcv.imread(img), which will only load it once
 output_folder = os.path.join(output_path, os.path.splitext(os.path.basename(img_path))[0])
 os.makedirs(output_folder, exist_ok=True)
 
@@ -65,8 +65,8 @@ processed_image_paths = [img_path]
 processed_image_paths.extend(list(results))
 
 
-config_file = '/home/liyuqiu/RS-PCT/configs/PseCo/90k_dota1.5_trainval_2.0_trainval_ms.py'
-checkpoint_file = '/home/liyuqiu/RS-PCT/output/1105_sup_trainval_ms/iter_180000.pth'
+config_file = '/home/****/RS-PCT/configs/PseCo/90k_dota1.5_trainval_2.0_trainval_ms.py'
+checkpoint_file = '/home/****/RS-PCT/output/1105_sup_trainval_ms/iter_180000.pth'
 
 # build the model from a config file and a checkpoint file
 model = init_detector(config_file, checkpoint_file, device='cuda:0')

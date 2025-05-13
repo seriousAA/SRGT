@@ -10,5 +10,5 @@ def file_sample(src_path, dst_path, num):
         os.system('cp {} {}'.format(os.path.join(src_path, file), os.path.join(dst_path, file)))
 
 if __name__ == '__main__':
-    file_sample('/home/liyuqiu/data/DOTA/dota_train_1024/test_split/images',
-                '/home/liyuqiu/data/DOTA/dota_train_1024/unlabeled_dior/images', 8000)
+    file_sample('/home/****/data/DOTA/dota_train_1024/test_split/images',
+                '/home/****/data/DOTA/dota_train_1024/unlabeled_dior/images', 8000)

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 
 # Load the data from the CSV file
-file_path = '/home/liyuqiu/RS-PCT/gsd_data_after (copy).csv'
+file_path = '/home/****/RS-PCT/gsd_data_after (copy).csv'
 
 # Loading the data again
 gsd_data = pd.read_csv(file_path)
@@ -49,4 +49,4 @@ ax.set_yticklabels([])
 # ax.spines['bottom'].set_visible(False)
 # ax.spines['left'].set_visible(False)
 plt.tight_layout()
-plt.savefig('/home/liyuqiu/RS-PCT/gsd_data_plot_2.jpg')
+plt.savefig('/home/****/RS-PCT/gsd_data_plot_2.jpg')

@@ -42,7 +42,7 @@ class Compose(object):
         """
 
         if self.visualize:
-            parent_folder = "/home/liyuqiu/RS-PCT/data/DOTA/show_data_augs"
+            parent_folder = "/home/****/RS-PCT/data/DOTA/show_data_augs"
             base_name = os.path.splitext(data['img_info']['filename'])[0]
             folder_path = os.path.join(parent_folder, base_name)
             os.makedirs(folder_path, exist_ok=True)

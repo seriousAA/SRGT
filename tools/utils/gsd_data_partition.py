@@ -6,14 +6,14 @@ from sklearn.model_selection import train_test_split
 
 # User-provided paths
 # Example path, needs to be replaced with actual image folder path
-image_folder_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_after'  
-image_folder_path_xview = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_xview_after'  
+image_folder_path = '/home/****/RS-PCT/data/DOTA/gsd_after'  
+image_folder_path_xview = '/home/****/RS-PCT/data/DOTA/gsd_xview_after'  
 # Example path, needs to be replaced with actual results folder path
-results_folder_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset'  
+results_folder_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset'  
 
 # Load the CSV file
-file_path = '/home/liyuqiu/RS-PCT/gsd_data_after.csv'
-file_path_xview = '/home/liyuqiu/RS-PCT/gsd_xview_after.csv'
+file_path = '/home/****/RS-PCT/gsd_data_after.csv'
+file_path_xview = '/home/****/RS-PCT/gsd_xview_after.csv'
 gsd_data = pd.read_csv(file_path)
 gsd_data_xview = pd.read_csv(file_path_xview)
 

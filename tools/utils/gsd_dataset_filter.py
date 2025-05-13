@@ -54,6 +54,6 @@ def filter_and_remove_images(folder_path, csv_path):
     print(f"Filtered CSV saved to {new_csv_path}")
 
 # Example usage
-folder_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/trainval'  # Update this path
-csv_path = '/home/liyuqiu/RS-PCT/data/DOTA/gsd_dataset/csv/trainval_data.csv'  # Update this path
+folder_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/trainval'  # Update this path
+csv_path = '/home/****/RS-PCT/data/DOTA/gsd_dataset/csv/trainval_data.csv'  # Update this path
 filter_and_remove_images(folder_path, csv_path)
